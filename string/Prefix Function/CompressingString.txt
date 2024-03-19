@@ -1,0 +1,4 @@
+Here atleast the first character never comes in the longest suffix 
+, and similarly the last character never comes in the longest prefix.
+(pi[0]=0)
+But Some of there characters may overlap.
