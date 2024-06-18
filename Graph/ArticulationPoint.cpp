@@ -61,7 +61,11 @@ void solve()
         g[v].pb(u);
     }
 
-    rep(i, 1, n) if (!vis[i]) DFS(i, -1);
+    rep(i, 1, n) if (!vis[i])
+    {
+        vis[i] = 1;
+        DFS(i, -1);
+    }
     for (int i = 1; i <= n; i++)
     {
         if (AP[i])
